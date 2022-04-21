@@ -1,0 +1,169 @@
+@media screen and (max-width: 1024px) {
+    
+    #particles-js  {
+        height: 40% !important;
+    }
+    ul.socisl.links {
+        display: none;
+    }
+    img.img-fluid.thre-pnthr {
+        max-width: 100% !important; 
+        height: auto; 
+        margin-bottom: -25px; 
+        margin-left: 15px;
+    }
+    br  {
+        display: none;
+    }
+    .thrd-sec-txt p  {
+        width: auto !important;
+    }
+    .owl-nav {
+        top: 40%;
+    }
+    .launch, .wallet, .e-commerce {
+        padding: 10px 0px;
+    }
+    .btm-icn.text-center {
+        padding: 4px 0px 8px 0px; 
+        font-size: 25px;
+    }
+    div#hamburger  {
+        margin-right: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-size: auto !important;
+    }
+    .thrd-sec-txt p {
+        font-size: 14px;
+    }
+    .btm-icn.text-center {
+        padding: 0px 0px 4px 0px; 
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .our-road-map .col-md-3 {
+        margin: 15px 0;
+    }
+    br.mbl-br {
+        display:block !important;
+    }
+    #particles-js  {
+        height: 80% !important;
+    }
+    h1.pay-your-way {
+        font-size: 45px;
+    }
+    .the-air-pay-app h1 {
+        font-size: 28px;
+    }
+    .our-app-txt.d-block h4 {
+        font-size: 18px;
+    }
+    .sec-sec-three-clm-txt {
+        text-align: center;
+    }
+    .meet-the-product-txt h4 {
+        font-size: 18px;
+    }
+    .the-mobile-platform h1 {
+        font-size: 28px;
+    }
+    img.img-fluid.thre-pnthr {
+        margin-bottom: 0 !important; 
+        margin-left: 0 !important;
+    }
+    .col-md-3.align-self-center.ml-n5.mt-5 {
+        margin: 25px 0 !important;
+    }
+    .row.thrd-sec-txt.align-items-center.mt-5.pt-5 .col-md-6 {
+        order: -1;
+    }
+    .row.thrd-sec-txt.align-items-center.mt-5.pt-5 .col-md-3 {
+        margin: 10px 0 !important;
+    }
+    .the-only-wallet h1 {
+        font-size: 28px;
+    }
+    .launch, .wallet, .e-commerce {
+        margin: 0 55px !important;
+    }
+    .our-road-map.pb-3 .container.py-5.my-5, .footer .container.py-5.mt-5 {
+        margin: 0 !important;
+    }   
+    .our-road-map-txt h1 {
+        font-size: 30px;
+    }
+    .our-road-map.pb-3 .row.my-5.py-5.justify-content-around .col-md-3 {
+        margin: 0px 0 30px 0;
+    }
+    .tokenomics-txt h4 {
+        font-size: 18px;
+    }
+    .two-token-system-txt h2 {
+        font-size: 30px;
+    }
+    .tokenomics .row.justify-content-around.mt-5.pt-5 .col-md-1:first-child, .tokenomics .row.justify-content-around.mt-5.pt-5 .col-md-1:last-child {
+        display: none;
+    }
+    .tokenomics .row.justify-content-around.mt-5.pt-5 .col-md-1 {
+        max-width: 26%; 
+        margin: 10px 0;
+    }
+    .tokenomics-txt.text-center h2 {
+        font-size: 30px;
+    }
+    .btm-icn.text-center {
+        padding: 5px 0px; 
+        font-size: 30px;
+    }
+    .two-token-system-txt.pt-5.mt-5.text-white.text-center ~ .pt-5 {
+        padding: 0 !important;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    .ttf .col-md-1 {
+        max-width: 33.3333%; 
+        margin: 10px 0;
+    }
+    .ttf .col-md-1 i {
+        font-size: 35px;
+    }
+    .sec-sec-three-clm-txt div {
+        border-right:none!important;
+    }
+    .footer {
+        text-align: center;
+    }
+    .div  {
+        text-align: center;
+    }
+    a.btn.full-rd-mp.bg-white  {
+        font-size: 17px;    
+        padding: 10px 16px;
+    }
+    img.img-fluid.hero-imgs {
+        margin-top: 35px;
+    }
+    .ftr-main-links  {
+        display:none;
+    }
+    .foooter-para {
+        padding-top: 30px;
+    }
+}
+@media screen and (min-width: 426px) {
+    br.mbl-br {
+        display:none !important;
+    }
+}
+.our-app.py-3  {
+    background-color: #0A0F1A;
+}
+        
+

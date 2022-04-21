@@ -1,0 +1,326 @@
+@font-face{
+    font-family: ttfsemibold; 
+    src: url(../fonts/TTFirsNeue-DemiBold.ttf);
+}
+@font-face{
+    font-family: ttfneuergrl; 
+    src: url(../fonts/TTFirsNeue-Regular.ttf);
+}
+@font-face{
+    font-family: ttfneuelight; 
+    src: url(../fonts/TTFirsNeue-Light.ttf);
+}
+@font-face{
+    font-family: ttfneuemdm; 
+    src: url(../fonts/TTFirsNeue-Medium.ttf);
+}
+@font-face{
+    font-family: ttfneuethn; 
+    src: url(../fonts/TTFirsNeue-Thin.eot);
+}
+@font-face{
+    font-family: ttfneuebld; 
+    src: url(../fonts/TTFirsNeue-Bold.ttf);
+}
+body{
+    margin: 0; 
+    padding: 0; 
+    background-color: #0A0F1A;
+}
+/*********************** NABVAR CSS ************************/
+main{
+    background-color: #12121200;
+}
+.logo, .content{
+    color: #fafafa;
+}
+.nav{
+    width: 100%; display: flex;
+     justify-content: space-between; 
+    align-items: center; 
+    position: sticky; 
+    top: 0; 
+    z-index: 3;
+}
+#hamburger{
+    opacity: 0.5; 
+    cursor: pointer; 
+    transition: opacity 0.25s linear; 
+    width: clamp(1.5rem, 2vw + 1.1rem, 6rem); 
+    height: clamp(2rem, 1.4vw + 1.7rem, 5rem); 
+    display: flex; 
+    align-items: center;
+}
+#hamburger:hover
+{
+    opacity: 1;
+}
+#hamburger div, #hamburger div:after, #hamburger div:before{
+    background-color: #fafafa; 
+    border-radius: 10px; 
+    width: clamp(1.5rem, 2vw + 1.1rem, 6rem); 
+    height: 4px; 
+    transition: all 0.15s linear;
+}
+#hamburger div:before, #hamburger div:after{
+    content: ""; 
+    position: absolute;
+}
+#hamburger div:before{
+    transform: translateY(-250%);
+}
+#hamburger div:after{
+    transform: translateY(250%);
+}
+#hamburger.open div{
+    background: transparent;
+}
+#hamburger.open div:before{
+    transform: rotate(45deg);
+}
+#hamburger.open div:after{
+    transform: rotate(-45deg);
+}
+#overlay{
+    position: fixed; 
+    width: 100%; 
+    min-height: 100%; 
+    background-color: #000000; 
+    z-index: 2; 
+    transform: translateY(-100%); 
+    transition: all 0.5s ease-in-out; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+#overlay.menu{
+    transform: translateY(0%);
+}
+#overlay a{
+    text-decoration: none; 
+    color: #fafafa; 
+    font-size: clamp(1rem, 4.1vw + 0.2rem, 3rem); 
+    margin: 0%; 
+    opacity: 0.5; 
+    transition: opacity 0.2s linear;
+}
+#overlay a:hover{
+    opacity: 1;
+}
+div#hamburger div::after{
+    width: 25px;
+}
+#hamburger div:before{
+    width: 35px;
+}
+#hamburger.open div:before, #hamburger.open div:after{
+    width: 45px;
+}
+ /* header{
+     background-image: url("../img/Group\ 2304.png"); 
+     background-size: cover;
+    } */ 
+div#hamburger{
+    transform: rotateY(180deg);
+    margin-right: -20px;
+}
+.pay-your-way{
+    font-family: ttfsemibold;
+}
+.pay-your-way-txt{
+    font-family: ttfneuergrl;
+}
+a.get-airpay p{
+    font-size: 24px; 
+    font-family: ttfneuergrl; 
+    color: #3a4778;
+}
+a.get-airpay img{
+    max-width: 20%; 
+    margin-right: 15px;
+}
+a.btn.btn-lg.bg-white.get-airpay.d-inline-flex.px-4{
+    padding: 8px 35px !important; 
+    border-radius: 10px;
+}
+ul.socisl.links{
+    list-style: none; 
+    position: absolute; 
+    bottom: 0; 
+    right: 5%; 
+    padding: 0 !important; 
+    margin-bottom: 0; 
+    /* top: 100%; */
+}
+ul.socisl.links li{
+    margin: 35px 0; 
+    text-align: center;
+}
+/* SECOND SEC */
+.our-app-txt h4{
+    font-family: ttfneuelight;
+}
+.the-air-pay-app h1{
+    font-family: ttfneuemdm;
+}
+.the-air-pay-app p{
+    font-family: ttfneuergrl;
+}
+.sec-sec-three-clm-txt{
+    font-family: ttfneuergrl;
+}
+/* THIRD SEC */
+.meet-the-product-txt h4{
+    font-family: ttfneuelight;
+}
+.the-mobile-platform h1{
+    font-family: ttfneuemdm;
+}
+.the-mobile-platform p{
+    font-family: ttfneuergrl;
+}
+.meet-the-product{
+    background-image:url("../img/Group\ 2308.png");
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: bottom;
+}
+.thrd-sec-txt p{
+    font-family: ttfneuergrl; 
+    font-size: 24px !important; 
+    width: max-content;
+}
+img.img-fluid.thre-pnthr{
+    max-width: 640px !important; 
+    height: auto; 
+    margin-bottom: -57px; 
+    margin-left: -35px;
+}
+/* FOUR SEC */
+.sec-our-app{
+    background-color: #0A0F1A;
+    background-attachment: fixed; 
+    background-position: right bottom; 
+    background-repeat: no-repeat;
+}
+.the-only-wallet h1{
+    font-family: ttfneuemdm;
+}
+.the-only-wallet p{
+    font-family: ttfneuergrl;
+}
+.owl-carousel.owl-loaded{
+    display: block; 
+    text-align: center !important;
+}
+.owl-carousel .owl-item img{
+    display: initial !important;
+}
+.owl-dots button.owl-dot{
+    width: 30px; 
+    height: 3px; 
+    margin: 4px;
+}
+.owl-carousel button.owl-dot{
+    background-color: #ffffff7a;
+}
+.owl-carousel button.owl-dot.active{
+    background-color: #ffffff;
+}
+.owl-carousel.owl-loaded.owl-drag{
+    position: relative;
+}
+.owl-nav{
+    position: absolute; 
+    top: 50%; 
+    width: 100%;
+}
+.owl-nav button{
+    outline: none;
+}
+button.owl-prev{
+    position: absolute; 
+    left: 0;
+}
+button.owl-next{
+    position: absolute; 
+    right: 0;
+}
+button.owl-prev span, button.owl-next span{
+    color: white; 
+    font-size: 60px; 
+    margin: 30px; 
+    outline: none;
+}
+/* FIVE SEC */
+.our-road-map-txt h1{
+    font-family: ttfneuemdm;
+}
+.our-road-map{
+    background-image: url(../img/Group\ 2303.png); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.launch, .wallet,.e-commerce{
+    border: 1px solid grey; 
+    border-radius: 22px; 
+    background-color: #4c4c4c2f; 
+    padding: 25px 0; 
+    min-height: 100%; 
+    font-family: ttfneuergrl;
+}
+a.btn.full-rd-mp.bg-white{
+    padding: 10px 60px; 
+    font-family: 'ttfneuergrl'; 
+    border-radius: 7px;
+}
+/* SIC SEC */
+.tokenomics-txt h4{
+    font-family: ttfneuelight;
+}
+.two-token-system-txt h2{
+    font-family: ttfneuemdm;
+}
+.two-token-system-txt p{
+    font-family: 'ttfneuelight';
+}
+.btm-icn.text-center{
+    padding: 4px 15px; 
+    background-color: #8080802e; 
+    border: 1px solid #9f9f9fa3; 
+    font-size: 35px; 
+    border-radius: 10px;
+}
+.footer{
+    background-color: #464B9F; 
+    font-family: ttfneuergrl;
+}
+.lisence{
+    background-color: #04045C; 
+    font-family: ttfneuergrl;
+}
+/* HOVER EFFECTS */
+.btm-icn.text-center:hover, 
+.launch:hover, .wallet:hover, 
+.e-commerce:hover, .app-store:hover, 
+.google-play:hover{
+    filter: drop-shadow(0px 0px 15px #464B9F); 
+    cursor: pointer;
+}
+a.btn:hover{
+    box-shadow: 0px 0px 16px 4px #464b9f; 
+    transform: scale(1.05);
+}
+a.btn.btn-lg.bg-white.get-airpay.d-inline-flex.px-4:hover, 
+a.btn.full-rd-mp.bg-white.aos-init.aos-animate:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+.btm-icn:hover, ul.socisl.links img:hover {
+    transform: scale(1.2) !important;
+    transition: .5s;
+}
+.btm-icn{
+    transition: .5s;
+}
