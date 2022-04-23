@@ -22,6 +22,10 @@
     font-family: ttfneuebld; 
     src: url(../fonts/TTFirsNeue-Bold.ttf);
 }
+@font-face{
+    font-family: ttfshortstack; 
+    src: url(../fonts/ShortStack-Regular.ttf);
+}
 body{
     margin: 0; 
     padding: 0; 
@@ -126,14 +130,14 @@ div#hamburger{
     margin-right: -20px;
 }
 .pay-your-way{
-    font-family: ttfsemibold;
+    font-family: ttfshortstack;
 }
 .pay-your-way-txt{
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 a.get-airpay p{
     font-size: 24px; 
-    font-family: ttfneuergrl; 
+    font-family: ttfshortstack; 
     color: #3a4778;
 }
 a.get-airpay img{
@@ -159,26 +163,26 @@ ul.socisl.links li{
 }
 /* SECOND SEC */
 .our-app-txt h4{
-    font-family: ttfneuelight;
+    font-family: ttfshortstack;
 }
 .the-air-pay-app h1{
-    font-family: ttfneuemdm;
+    font-family: ttfshortstack;
 }
 .the-air-pay-app p{
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 .sec-sec-three-clm-txt{
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 /* THIRD SEC */
 .meet-the-product-txt h4{
-    font-family: ttfneuelight;
+    font-family: ttfshortstack;
 }
 .the-mobile-platform h1{
-    font-family: ttfneuemdm;
+    font-family: ttfshortstack;
 }
 .the-mobile-platform p{
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 .meet-the-product{
     background-image:url("../img/Group\ 2308.png");
@@ -187,7 +191,7 @@ ul.socisl.links li{
     background-position: bottom;
 }
 .thrd-sec-txt p{
-    font-family: ttfneuergrl; 
+    font-family: ttfshortstack; 
     font-size: 24px !important; 
     width: max-content;
 }
@@ -205,10 +209,10 @@ img.img-fluid.thre-pnthr{
     background-repeat: no-repeat;
 }
 .the-only-wallet h1{
-    font-family: ttfneuemdm;
+    font-family: ttfshortstack;
 }
 .the-only-wallet p{
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 .owl-carousel.owl-loaded{
     display: block; 
@@ -255,7 +259,7 @@ button.owl-prev span, button.owl-next span{
 }
 /* FIVE SEC */
 .our-road-map-txt h1{
-    font-family: ttfneuemdm;
+    font-family: ttfshortstack;
 }
 .our-road-map{
     background-image: url(../img/Group\ 2303.png); 
@@ -268,22 +272,22 @@ button.owl-prev span, button.owl-next span{
     background-color: #4c4c4c2f; 
     padding: 25px 0; 
     min-height: 100%; 
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 a.btn.full-rd-mp.bg-white{
     padding: 10px 60px; 
-    font-family: 'ttfneuergrl'; 
+    font-family: 'ttfshortstack'; 
     border-radius: 7px;
 }
 /* SIC SEC */
 .tokenomics-txt h4{
-    font-family: ttfneuelight;
+    font-family: ttfshortstack;
 }
 .two-token-system-txt h2{
-    font-family: ttfneuemdm;
+    font-family: ttfshortstack;
 }
 .two-token-system-txt p{
-    font-family: 'ttfneuelight';
+    font-family: 'ttfshortstack';
 }
 .btm-icn.text-center{
     padding: 4px 15px; 
@@ -294,11 +298,11 @@ a.btn.full-rd-mp.bg-white{
 }
 .footer{
     background-color: #464B9F; 
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 .lisence{
     background-color: #04045C; 
-    font-family: ttfneuergrl;
+    font-family: ttfshortstack;
 }
 /* HOVER EFFECTS */
 .btm-icn.text-center:hover, 
@@ -324,3 +328,4 @@ a.btn.full-rd-mp.bg-white.aos-init.aos-animate:hover {
 .btm-icn{
     transition: .5s;
 }
+p{font-family: ttfshortstack;}
