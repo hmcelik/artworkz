@@ -328,4 +328,13 @@ a.btn.full-rd-mp.bg-white.aos-init.aos-animate:hover {
 .btm-icn{
     transition: .5s;
 }
-p{font-family: ttfshortstack;}
+
+@media only screen and (max-width: 1024px) {
+    p {
+      font-size: 15px;
+    }
+    div div div .smaller {font-size: 20px;}
+    div div div h4 { font-size: 25px;}
+    div div div p {
+        font-size: 15px;}
+  }
